@@ -69,16 +69,16 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <TargetName>rbxfpsunlocker</TargetName>
+    <TargetName>rboxfpsunlock</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <TargetName>rbxfpsunlocker</TargetName>
+    <TargetName>rboxfpsunlock</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <TargetName>rbxfpsunlocker</TargetName>
+    <TargetName>rboxfpsunlock</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <TargetName>rbxfpsunlocker</TargetName>
+    <TargetName>rboxfpsunlock</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -169,7 +169,7 @@
     <ClInclude Include="rfu.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="rbxfpsunlocker.rc" />
+    <ResourceCompile Include="rboxfpsunlock.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\icon.ico" />

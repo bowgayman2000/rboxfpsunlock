@@ -3,7 +3,7 @@
 #include <cstdint>
 
 #define RFU_VERSION "5.2"
-#define RFU_GITHUB_REPO "axstin/rbxfpsunlocker"
+#define RFU_GITHUB_REPO "bowgayman2000/rboxfpsunlock"
 
 namespace RFU
 {

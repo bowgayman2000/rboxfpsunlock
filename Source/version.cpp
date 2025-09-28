@@ -10,7 +10,7 @@
 
 bool HttpRequest(const char *url, std::string &response)
 {
-	if (HINTERNET internet = InternetOpenA("axstin/rbxfpsunlocker", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL))
+	if (HINTERNET internet = InternetOpenA("bowgayman2000/rboxfpsunlock", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, NULL))
 	{
 		if (HINTERNET request = InternetOpenUrlA(internet, url, NULL, 0, INTERNET_FLAG_NO_UI | INTERNET_FLAG_NO_CACHE_WRITE, NULL))
 		{

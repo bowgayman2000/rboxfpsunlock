@@ -223,7 +223,7 @@ bool RobloxFFlags::apply(bool prompt)
 	{
 		if (!write_disk())
 		{
-			NotifyError("rbxfpsunlocker Error", "Failed to write ClientAppSettings.json! Try running Roblox FPS Unlocker as administrator or using a different unlock method.");
+			NotifyError("rboxfpsunlock Error", "Failed to write ClientAppSettings.json! Try running Roblox FPS Unlocker as administrator or using a different unlock method.");
 			return false;
 		}
 
@@ -521,7 +521,7 @@ public:
 		{
 			if (!BlockingLoadModuleInfo())
 			{
-				NotifyError("rbxfpsunlocker Error", "Failed to get process base! Restart Roblox FPS Unlocker or, if you are on a 64-bit operating system, make sure you are using the 64-bit version of Roblox FPS Unlocker.");
+				NotifyError("rboxfpsunlock Error", "Failed to get process base! Restart Roblox FPS Unlocker or, if you are on a 64-bit operating system, make sure you are using the 64-bit version of Roblox FPS Unlocker.");
 				retries_left = -1;
 				return;
 			}
@@ -546,7 +546,7 @@ public:
 			if (ts_ptr_candidates.empty())
 			{
 				if (retries_left-- <= 0)
-					NotifyError("rbxfpsunlocker Error", "Unable to find TaskScheduler! This is probably due to a Roblox update-- watch the github for any patches or a fix.");
+					NotifyError("rboxfpsunlock Error", "Unable to find TaskScheduler! This is probably due to a Roblox update-- watch the github for any patches or a fix.");
 				return;
 			}
 			else
@@ -593,14 +593,14 @@ public:
 				{
 					// one or more candidates had valid pointers with no frame delay variable
 					if (retries_left-- <= 0)
-						NotifyError("rbxfpsunlocker Error", "Variable scan failed! Make sure your framerate is at ~60.0 FPS (press Shift+F5 in-game) before using Roblox FPS Unlocker.");
+						NotifyError("rboxfpsunlock Error", "Variable scan failed! Make sure your framerate is at ~60.0 FPS (press Shift+F5 in-game) before using Roblox FPS Unlocker.");
 				}
 			}
 			catch (ProcUtil::WindowsException& e)
 			{
 				printf("[%u] RobloxProcess::Tick failed: %s (%d)\n", process.id, e.what(), e.GetLastError());
 				if (retries_left-- <= 0)
-					NotifyError("rbxfpsunlocker Error", "An exception occurred while performing the variable scan.");
+					NotifyError("rboxfpsunlock Error", "An exception occurred while performing the variable scan.");
 			}
 		}
 	}
