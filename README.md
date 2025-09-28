@@ -10,7 +10,7 @@ Thanks for using rboxfpsunlock!
 ## Usage
 1. Download the latest release from https://github.com/bowgayman2000/rboxfpsunlock
 2. Extract `rboxfpsunlock-x64.zip` into a folder
-3. Run `rboxfpsunlock.exe` before or after starting Roblox
+3. Run `rboxfpsunlock.msi` before or after starting Roblox
 4. Enjoy those [beautiful frames](https://i.imgur.com/vsLf04O.png) 👌
 
 Alternatively, RFU is available on [Scoop](https://scoop.sh/). <sup>[1](https://github.com/Calinou/scoop-games/blob/master/bucket/rboxfpsunlock.json)</sup>
