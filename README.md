@@ -19,7 +19,7 @@ Alternatively, RFU is available on [Scoop](https://scoop.sh/). <sup>[1](https://
 
 1. **Roblox is force-closing, files are being deleted, and/or my anti-virus is detecting rboxfpsunlock as malware. What do I do?**
 
-All detections are false positives. Internally, RFU "tampers" with running Roblox processes in order to uncap framerate and can appear as suspicious to an anti-virus. For reasons unbeknownst to me, 32-bit builds of RFU garner many more false positive detections than 64-bit builds and are no longer included in new releases. If you don't trust me, feel free to download the repository, review the source code, and compile the project yourself with Visual Studio 2019. Otherwise, add an exception to your anti-virus for `rboxfpsunlock.exe` (or the folder it is in).
+All detections are false positives. Internally, RFU "tampers" with running Roblox processes in order to uncap framerate and can appear as suspicious to an anti-virus. For reasons unbeknownst to me, 32-bit builds of RFU garner many more false positive detections than 64-bit builds and are no longer included in new releases. If you don't trust me, feel free to download the repository, review the source code, and compile the project yourself with Visual Studio 2019. Otherwise, add an exception to your anti-virus for `rboxfpsunlock.msi` (or the folder it is in).
 
 2. **How can I see my FPS?**
 
@@ -37,7 +37,7 @@ This being said, if you know your computer is powerful enough but still aren't s
 
 5. **Can I set a custom framerate cap?**
 
-You can create your own list of FPS cap values by editing the `FPSCapValues` array inside the `settings` file located in the same folder as `rboxfpsunlock.exe`.
+You can create your own list of FPS cap values by editing the `FPSCapValues` array inside the `settings` file located in the same folder as `rboxfpsunlock.msi`.
 
 6. **Does this work for Mac?**
 
